@@ -20,7 +20,7 @@ function Gallery({actorsData}){
     <Card >
     <Card.Img variant="top" src={actor.imgUrl} alt = {`${actor.fName} ${actor.lName}`} />
         <Card.Body>
-        <Card.Title>{actor.lName} {actor.fName}</Card.Title>
+        <Card.Title> {actor.fName}{actor.lName}</Card.Title>
         <Card.Text>
                 age: {actor.age()}
         </Card.Text>
